@@ -58,6 +58,7 @@ This file provides guidance to WARP (warp.dev) when working with code in this re
   - `JWT_SECRET` (used by `src/utils/jwt.js`; if absent, a development default is used but should be overridden)
 
 Notes
+
 - Node must support ESM and `package.json#imports` (Node 18+ recommended).
 - Path aliases via `package.json#imports` are resolved by Node at runtime; editors/tooling may need awareness but ESLint/Prettier are configured locally (`eslint.config.js`).
 - Line endings: ESLint enforces Unix line breaks (`'linebreak-style': 'unix'`). On Windows, ensure your editor uses LF for this project or let Prettier handle normalization.

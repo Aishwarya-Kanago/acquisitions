@@ -677,3 +677,627 @@
 {"level":"info","message":"::1 - - [27/Nov/2025:13:38:23 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
 {"level":"info","message":"::1 - - [27/Nov/2025:13:38:53 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"aquisitions-api"}
 {"level":"info","message":"::1 - - [27/Nov/2025:13:39:24 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:14:47:43 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:14:48:13 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [27/Nov/2025:14:48:24 +0000] \"GET /api/users/2 HTTP/1.1\" 401 72 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:14:48:44 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:14:49:14 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:14:49:44 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:14:50:15 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:14:50:45 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:14:51:16 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:14:51:46 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:14:52:16 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:14:52:47 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:14:53:17 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:14:53:47 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:14:54:18 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:14:54:48 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:14:55:19 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:14:55:49 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:14:56:20 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:14:56:50 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:14:57:20 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"error","message":"Error authenticating the user: Error: Invalid email or password","service":"aquisitions-api"}
+{"level":"error","message":"Signin error Invalid email or password","service":"aquisitions-api","stack":"Error: Invalid email or password\n    at authenticateUser (file:///app/src/services/auth.service.js:71:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async signin (file:///app/src/controllers/auth.controller.js:65:18)"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [27/Nov/2025:14:57:24 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 401 37 \"-\" \"HTTPie\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:14:57:51 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"error","message":"Error authenticating the user: Error: Invalid email or password","service":"aquisitions-api"}
+{"level":"error","message":"Signin error Invalid email or password","service":"aquisitions-api","stack":"Error: Invalid email or password\n    at authenticateUser (file:///app/src/services/auth.service.js:76:13)\n    at async signin (file:///app/src/controllers/auth.controller.js:65:18)"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [27/Nov/2025:14:57:53 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 401 37 \"-\" \"HTTPie\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:14:58:21 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:14:58:52 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:14:59:22 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:14:59:52 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"error","message":"Error authenticating the user: Error: Invalid email or password","service":"aquisitions-api"}
+{"level":"error","message":"Signin error Invalid email or password","service":"aquisitions-api","stack":"Error: Invalid email or password\n    at authenticateUser (file:///app/src/services/auth.service.js:76:13)\n    at async signin (file:///app/src/controllers/auth.controller.js:65:18)"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [27/Nov/2025:14:59:56 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 401 37 \"-\" \"HTTPie\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:00:23 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:00:53 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:01:24 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:01:54 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:02:24 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:02:55 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:03:25 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:03:56 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:04:26 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:04:56 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:05:27 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:05:57 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"error","message":"Error authenticating the user: Error: Invalid email or password","service":"aquisitions-api"}
+{"level":"error","message":"Signin error Invalid email or password","service":"aquisitions-api","stack":"Error: Invalid email or password\n    at authenticateUser (file:///app/src/services/auth.service.js:76:13)\n    at async signin (file:///app/src/controllers/auth.controller.js:65:18)"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [27/Nov/2025:15:06:00 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 401 37 \"-\" \"HTTPie\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:06:28 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:06:58 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:07:29 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:07:59 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:08:29 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:09:00 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:09:30 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:10:01 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:10:31 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:11:02 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:11:32 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:12:02 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:12:33 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:13:03 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:13:33 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:14:04 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:14:34 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:15:05 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:15:35 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:16:06 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:16:36 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:17:06 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:17:37 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:18:07 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:18:38 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:19:08 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:19:38 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:20:09 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:20:39 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:21:10 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:21:40 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:22:11 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:22:42 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:23:12 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:23:42 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:24:13 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:24:43 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:25:14 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:25:44 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:26:14 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:26:45 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:27:15 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:27:45 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:28:16 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:28:46 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:29:17 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:29:47 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:30:18 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:30:48 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:31:19 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:31:49 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:32:19 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:32:50 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:33:20 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:33:50 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:34:21 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:34:51 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:35:21 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:35:52 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:36:22 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:36:52 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:37:22 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:37:53 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:38:23 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:38:53 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:39:24 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:39:54 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:40:24 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:40:55 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:41:25 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:41:55 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:42:26 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:42:56 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:43:27 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:43:57 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:44:27 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:44:58 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:45:28 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:45:58 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:46:28 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:46:59 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:47:29 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:48:00 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:48:30 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:49:00 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:49:31 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:50:01 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:50:31 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:51:02 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:51:32 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:52:02 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:52:33 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:53:03 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:53:33 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:54:04 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:54:34 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:55:04 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:55:35 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:56:05 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:56:35 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:57:06 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:57:36 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:58:06 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:58:37 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:59:07 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:15:59:37 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:00:08 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:00:38 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:01:08 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:01:39 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:02:09 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:02:39 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:03:10 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:03:40 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:04:10 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:04:41 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:05:11 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:05:41 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:06:12 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:06:42 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:07:12 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:07:43 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:08:13 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:08:43 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:09:14 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:09:44 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:10:14 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:10:45 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:11:15 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:11:45 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:12:16 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:12:46 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:13:16 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:13:47 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:14:17 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:14:47 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:15:18 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:15:48 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:16:18 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:16:49 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:17:19 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:17:49 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:18:20 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:18:50 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:19:20 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:19:51 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:20:21 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:20:51 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:21:22 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:21:52 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:22:22 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:22:53 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:23:23 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:23:53 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:24:24 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:24:54 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:25:24 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:25:55 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:26:25 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:26:55 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:27:26 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:27:56 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:28:26 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:28:57 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:29:27 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:29:58 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:30:28 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:30:58 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:31:29 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:31:59 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:32:29 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:33:00 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:33:30 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:34:00 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:34:31 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:35:01 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:35:31 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:36:02 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:36:32 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:37:02 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:37:33 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:38:03 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:38:33 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:39:04 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:39:34 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:40:04 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:40:35 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:41:05 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:41:36 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:42:06 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:42:36 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:43:07 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:43:37 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:44:07 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:44:38 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:45:08 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:45:38 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:46:09 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:46:39 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:47:09 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:47:40 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:48:10 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:48:41 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:49:11 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:49:41 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:50:12 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:50:42 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:51:12 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:51:43 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:52:13 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:52:43 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:53:14 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:53:44 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:54:14 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:54:45 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:55:15 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:55:46 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:56:16 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:56:46 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:57:17 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:57:47 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:58:17 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:58:48 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:59:18 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:16:59:49 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:00:19 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:00:49 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:01:20 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:01:50 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:02:21 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:02:51 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:03:21 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:03:52 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:04:22 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:04:52 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:05:23 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:05:53 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:06:23 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:06:54 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:07:24 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:07:54 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:08:25 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:08:55 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:09:26 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:09:56 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:10:26 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:10:57 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:11:27 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:11:58 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:12:28 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:12:58 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:13:29 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:13:59 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:14:29 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:15:00 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:15:30 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:16:01 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:16:31 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:17:01 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"error","message":"Error authenticating the user: Error: Invalid email or password","service":"aquisitions-api"}
+{"level":"error","message":"Signin error Invalid email or password","service":"aquisitions-api","stack":"Error: Invalid email or password\n    at authenticateUser (file:///app/src/services/auth.service.js:71:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async signin (file:///app/src/controllers/auth.controller.js:65:18)"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [27/Nov/2025:17:17:16 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 401 37 \"-\" \"HTTPie\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:17:32 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"error","message":"Error authenticating the user: Error: Invalid email or password","service":"aquisitions-api"}
+{"level":"error","message":"Signin error Invalid email or password","service":"aquisitions-api","stack":"Error: Invalid email or password\n    at authenticateUser (file:///app/src/services/auth.service.js:71:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async signin (file:///app/src/controllers/auth.controller.js:65:18)"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [27/Nov/2025:17:17:41 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 401 37 \"-\" \"HTTPie\"","service":"aquisitions-api"}
+{"level":"error","message":"Error authenticating the user: Error: Invalid email or password","service":"aquisitions-api"}
+{"level":"error","message":"Signin error Invalid email or password","service":"aquisitions-api","stack":"Error: Invalid email or password\n    at authenticateUser (file:///app/src/services/auth.service.js:71:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async signin (file:///app/src/controllers/auth.controller.js:65:18)"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [27/Nov/2025:17:17:42 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 401 37 \"-\" \"HTTPie\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:18:02 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [27/Nov/2025:17:18:32 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 92 \"-\" \"HTTPie\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:18:33 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"User aishu@gmail.com created successfully","service":"aquisitions-api"}
+{"level":"info","message":"User registered successfully: aishu@gmail.com","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [27/Nov/2025:17:18:42 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 100 \"-\" \"HTTPie\"","service":"aquisitions-api"}
+{"level":"info","message":"User signed in successfully: aishu@gmail.com","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [27/Nov/2025:17:18:56 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 99 \"-\" \"HTTPie\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:19:03 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:19:34 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [27/Nov/2025:17:19:57 +0000] \"POST /api/users/2 HTTP/1.1\" 404 151 \"-\" \"HTTPie\"","service":"aquisitions-api"}
+{"level":"info","message":"User authenticated: aishu@gmail.com (user)","service":"aquisitions-api"}
+{"level":"info","message":"Getting user by id: 2","service":"aquisitions-api"}
+{"level":"error","message":"Error getting user by id 2: Cannot convert undefined or null to object","service":"aquisitions-api","stack":"TypeError: Cannot convert undefined or null to object\n    at Function.entries (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:53:17)\n    at file:///app/node_modules/drizzle-orm/utils.js:63:22\n    at Array.reduce (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:53:33)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:770:26\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)\n    at PgSelectBase._prepare (file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:769:19)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:797:19\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)"}
+{"level":"error","message":"Error fetching user by id: Cannot convert undefined or null to object","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [27/Nov/2025:17:20:03 +0000] \"GET /api/users/2 HTTP/1.1\" 500 1061 \"-\" \"HTTPie\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:20:04 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:20:34 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"User authenticated: aishu@gmail.com (user)","service":"aquisitions-api"}
+{"level":"info","message":"Getting user by id: 3","service":"aquisitions-api"}
+{"level":"error","message":"Error getting user by id 3: Cannot convert undefined or null to object","service":"aquisitions-api","stack":"TypeError: Cannot convert undefined or null to object\n    at Function.entries (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:53:17)\n    at file:///app/node_modules/drizzle-orm/utils.js:63:22\n    at Array.reduce (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:53:33)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:770:26\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)\n    at PgSelectBase._prepare (file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:769:19)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:797:19\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)"}
+{"level":"error","message":"Error fetching user by id: Cannot convert undefined or null to object","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [27/Nov/2025:17:20:40 +0000] \"GET /api/users/3 HTTP/1.1\" 500 1061 \"-\" \"HTTPie\"","service":"aquisitions-api"}
+{"level":"info","message":"User authenticated: aishu@gmail.com (user)","service":"aquisitions-api"}
+{"level":"info","message":"Getting user by id: 1","service":"aquisitions-api"}
+{"level":"error","message":"Error getting user by id 1: Cannot convert undefined or null to object","service":"aquisitions-api","stack":"TypeError: Cannot convert undefined or null to object\n    at Function.entries (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:53:17)\n    at file:///app/node_modules/drizzle-orm/utils.js:63:22\n    at Array.reduce (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:53:33)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:770:26\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)\n    at PgSelectBase._prepare (file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:769:19)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:797:19\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)"}
+{"level":"error","message":"Error fetching user by id: Cannot convert undefined or null to object","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [27/Nov/2025:17:20:44 +0000] \"GET /api/users/1 HTTP/1.1\" 500 1061 \"-\" \"HTTPie\"","service":"aquisitions-api"}
+{"level":"info","message":"User authenticated: aishu@gmail.com (user)","service":"aquisitions-api"}
+{"level":"info","message":"Getting user by id: 1","service":"aquisitions-api"}
+{"level":"error","message":"Error getting user by id 1: Cannot convert undefined or null to object","service":"aquisitions-api","stack":"TypeError: Cannot convert undefined or null to object\n    at Function.entries (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:53:17)\n    at file:///app/node_modules/drizzle-orm/utils.js:63:22\n    at Array.reduce (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:53:33)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:770:26\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)\n    at PgSelectBase._prepare (file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:769:19)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:797:19\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)"}
+{"level":"error","message":"Error fetching user by id: Cannot convert undefined or null to object","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [27/Nov/2025:17:20:44 +0000] \"GET /api/users/1 HTTP/1.1\" 500 1061 \"-\" \"HTTPie\"","service":"aquisitions-api"}
+{"level":"info","message":"User authenticated: aishu@gmail.com (user)","service":"aquisitions-api"}
+{"level":"info","message":"Getting user by id: 1","service":"aquisitions-api"}
+{"level":"error","message":"Error getting user by id 1: Cannot convert undefined or null to object","service":"aquisitions-api","stack":"TypeError: Cannot convert undefined or null to object\n    at Function.entries (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:53:17)\n    at file:///app/node_modules/drizzle-orm/utils.js:63:22\n    at Array.reduce (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:53:33)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:770:26\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)\n    at PgSelectBase._prepare (file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:769:19)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:797:19\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)"}
+{"level":"error","message":"Error fetching user by id: Cannot convert undefined or null to object","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [27/Nov/2025:17:20:45 +0000] \"GET /api/users/1 HTTP/1.1\" 500 1061 \"-\" \"HTTPie\"","service":"aquisitions-api"}
+{"level":"info","message":"User authenticated: aishu@gmail.com (user)","service":"aquisitions-api"}
+{"level":"info","message":"Getting user by id: 1","service":"aquisitions-api"}
+{"level":"error","message":"Error getting user by id 1: Cannot convert undefined or null to object","service":"aquisitions-api","stack":"TypeError: Cannot convert undefined or null to object\n    at Function.entries (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:53:17)\n    at file:///app/node_modules/drizzle-orm/utils.js:63:22\n    at Array.reduce (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:53:33)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:770:26\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)\n    at PgSelectBase._prepare (file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:769:19)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:797:19\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)"}
+{"level":"error","message":"Error fetching user by id: Cannot convert undefined or null to object","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [27/Nov/2025:17:20:45 +0000] \"GET /api/users/1 HTTP/1.1\" 500 1061 \"-\" \"HTTPie\"","service":"aquisitions-api"}
+{"level":"info","message":"User authenticated: aishu@gmail.com (user)","service":"aquisitions-api"}
+{"level":"info","message":"Getting user by id: 1","service":"aquisitions-api"}
+{"level":"error","message":"Error getting user by id 1: Cannot convert undefined or null to object","service":"aquisitions-api","stack":"TypeError: Cannot convert undefined or null to object\n    at Function.entries (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:53:17)\n    at file:///app/node_modules/drizzle-orm/utils.js:63:22\n    at Array.reduce (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:53:33)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:770:26\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)\n    at PgSelectBase._prepare (file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:769:19)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:797:19\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)"}
+{"level":"error","message":"Error fetching user by id: Cannot convert undefined or null to object","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [27/Nov/2025:17:20:45 +0000] \"GET /api/users/1 HTTP/1.1\" 500 1061 \"-\" \"HTTPie\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:21:05 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:21:35 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [27/Nov/2025:17:21:38 +0000] \"GET /api/users/1 HTTP/1.1\" 401 72 \"-\" \"HTTPie\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [27/Nov/2025:17:21:59 +0000] \"GET /api/auth/sign-in HTTP/1.1\" 404 155 \"-\" \"HTTPie\"","service":"aquisitions-api"}
+{"level":"info","message":"User signed in successfully: aishu@gmail.com","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [27/Nov/2025:17:22:04 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 99 \"-\" \"HTTPie\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:22:06 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:22:36 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"User authenticated: aishu@gmail.com (user)","service":"aquisitions-api"}
+{"level":"info","message":"Getting user by id: 3","service":"aquisitions-api"}
+{"level":"error","message":"Error getting user by id 3: Cannot convert undefined or null to object","service":"aquisitions-api","stack":"TypeError: Cannot convert undefined or null to object\n    at Function.entries (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:53:17)\n    at file:///app/node_modules/drizzle-orm/utils.js:63:22\n    at Array.reduce (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:53:33)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:770:26\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)\n    at PgSelectBase._prepare (file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:769:19)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:797:19\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)"}
+{"level":"error","message":"Error fetching user by id: Cannot convert undefined or null to object","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [27/Nov/2025:17:22:47 +0000] \"GET /api/users/3 HTTP/1.1\" 500 1061 \"-\" \"HTTPie\"","service":"aquisitions-api"}
+{"level":"info","message":"User authenticated: aishu@gmail.com (user)","service":"aquisitions-api"}
+{"level":"info","message":"Getting user by id: 3","service":"aquisitions-api"}
+{"level":"error","message":"Error getting user by id 3: Cannot convert undefined or null to object","service":"aquisitions-api","stack":"TypeError: Cannot convert undefined or null to object\n    at Function.entries (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:53:17)\n    at file:///app/node_modules/drizzle-orm/utils.js:63:22\n    at Array.reduce (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:53:33)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:770:26\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)\n    at PgSelectBase._prepare (file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:769:19)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:797:19\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)"}
+{"level":"error","message":"Error fetching user by id: Cannot convert undefined or null to object","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [27/Nov/2025:17:22:48 +0000] \"GET /api/users/3 HTTP/1.1\" 500 1061 \"-\" \"HTTPie\"","service":"aquisitions-api"}
+{"level":"info","message":"User authenticated: aishu@gmail.com (user)","service":"aquisitions-api"}
+{"level":"info","message":"Getting user by id: 3","service":"aquisitions-api"}
+{"level":"error","message":"Error getting user by id 3: Cannot convert undefined or null to object","service":"aquisitions-api","stack":"TypeError: Cannot convert undefined or null to object\n    at Function.entries (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:53:17)\n    at file:///app/node_modules/drizzle-orm/utils.js:63:22\n    at Array.reduce (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:53:33)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:770:26\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)\n    at PgSelectBase._prepare (file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:769:19)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:797:19\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)"}
+{"level":"error","message":"Error fetching user by id: Cannot convert undefined or null to object","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [27/Nov/2025:17:22:49 +0000] \"GET /api/users/3 HTTP/1.1\" 500 1061 \"-\" \"HTTPie\"","service":"aquisitions-api"}
+{"level":"info","message":"User authenticated: aishu@gmail.com (user)","service":"aquisitions-api"}
+{"level":"info","message":"Getting user by id: 2","service":"aquisitions-api"}
+{"level":"error","message":"Error getting user by id 2: Cannot convert undefined or null to object","service":"aquisitions-api","stack":"TypeError: Cannot convert undefined or null to object\n    at Function.entries (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:53:17)\n    at file:///app/node_modules/drizzle-orm/utils.js:63:22\n    at Array.reduce (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:53:33)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:770:26\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)\n    at PgSelectBase._prepare (file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:769:19)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:797:19\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)"}
+{"level":"error","message":"Error fetching user by id: Cannot convert undefined or null to object","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [27/Nov/2025:17:22:53 +0000] \"GET /api/users/2 HTTP/1.1\" 500 1061 \"-\" \"HTTPie\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:23:06 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:23:37 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:24:08 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:24:38 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:25:08 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:25:39 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"User authenticated: aishu@gmail.com (user)","service":"aquisitions-api"}
+{"level":"info","message":"Getting user by id: 2","service":"aquisitions-api"}
+{"level":"error","message":"Error getting user by id 2: Cannot convert undefined or null to object","service":"aquisitions-api","stack":"TypeError: Cannot convert undefined or null to object\n    at Function.entries (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:53:17)\n    at file:///app/node_modules/drizzle-orm/utils.js:63:22\n    at Array.reduce (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:53:33)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:770:26\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)\n    at PgSelectBase._prepare (file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:769:19)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:797:19\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)"}
+{"level":"error","message":"Error fetching user by id: Cannot convert undefined or null to object","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [27/Nov/2025:17:26:02 +0000] \"GET /api/users/2 HTTP/1.1\" 500 1061 \"-\" \"HTTPie\"","service":"aquisitions-api"}
+{"level":"info","message":"User authenticated: aishu@gmail.com (user)","service":"aquisitions-api"}
+{"level":"info","message":"Getting user by id: 2","service":"aquisitions-api"}
+{"level":"error","message":"Error getting user by id 2: Cannot convert undefined or null to object","service":"aquisitions-api","stack":"TypeError: Cannot convert undefined or null to object\n    at Function.entries (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:53:17)\n    at file:///app/node_modules/drizzle-orm/utils.js:63:22\n    at Array.reduce (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:53:33)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:770:26\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)\n    at PgSelectBase._prepare (file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:769:19)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:797:19\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)"}
+{"level":"error","message":"Error fetching user by id: Cannot convert undefined or null to object","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [27/Nov/2025:17:26:04 +0000] \"GET /api/users/2 HTTP/1.1\" 500 1061 \"-\" \"HTTPie\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:26:09 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [27/Nov/2025:17:26:34 +0000] \"GET /api/users/3 HTTP/1.1\" 401 72 \"-\" \"HTTPie\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:26:40 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [27/Nov/2025:17:26:51 +0000] \"GET /api/auth/sign-in HTTP/1.1\" 404 155 \"-\" \"HTTPie\"","service":"aquisitions-api"}
+{"level":"info","message":"User signed in successfully: aishu@gmail.com","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [27/Nov/2025:17:26:57 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 99 \"-\" \"HTTPie\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:27:10 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [27/Nov/2025:17:27:24 +0000] \"POST /api/users/3 HTTP/1.1\" 404 151 \"-\" \"HTTPie\"","service":"aquisitions-api"}
+{"level":"info","message":"User authenticated: aishu@gmail.com (user)","service":"aquisitions-api"}
+{"level":"info","message":"Getting user by id: 3","service":"aquisitions-api"}
+{"level":"error","message":"Error getting user by id 3: Cannot convert undefined or null to object","service":"aquisitions-api","stack":"TypeError: Cannot convert undefined or null to object\n    at Function.entries (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:53:17)\n    at file:///app/node_modules/drizzle-orm/utils.js:63:22\n    at Array.reduce (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:53:33)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:770:26\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)\n    at PgSelectBase._prepare (file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:769:19)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:797:19\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)"}
+{"level":"error","message":"Error fetching user by id: Cannot convert undefined or null to object","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [27/Nov/2025:17:27:29 +0000] \"GET /api/users/3 HTTP/1.1\" 500 1061 \"-\" \"HTTPie\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:27:41 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"User authenticated: aishu@gmail.com (user)","service":"aquisitions-api"}
+{"level":"info","message":"Getting user by id: 3","service":"aquisitions-api"}
+{"level":"error","message":"Error getting user by id 3: Cannot convert undefined or null to object","service":"aquisitions-api","stack":"TypeError: Cannot convert undefined or null to object\n    at Function.entries (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:53:17)\n    at file:///app/node_modules/drizzle-orm/utils.js:63:22\n    at Array.reduce (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:53:33)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:770:26\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)\n    at PgSelectBase._prepare (file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:769:19)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:797:19\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)"}
+{"level":"error","message":"Error fetching user by id: Cannot convert undefined or null to object","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [27/Nov/2025:17:27:46 +0000] \"GET /api/users/3 HTTP/1.1\" 500 1061 \"-\" \"HTTPie\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:28:11 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"User authenticated: aishu@gmail.com (user)","service":"aquisitions-api"}
+{"level":"info","message":"Getting user by id: 2","service":"aquisitions-api"}
+{"level":"error","message":"Error getting user by id 2: Cannot convert undefined or null to object","service":"aquisitions-api","stack":"TypeError: Cannot convert undefined or null to object\n    at Function.entries (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:53:17)\n    at file:///app/node_modules/drizzle-orm/utils.js:63:22\n    at Array.reduce (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:53:33)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:770:26\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)\n    at PgSelectBase._prepare (file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:769:19)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:797:19\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)"}
+{"level":"error","message":"Error fetching user by id: Cannot convert undefined or null to object","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [27/Nov/2025:17:28:25 +0000] \"GET /api/users/2 HTTP/1.1\" 500 1061 \"-\" \"HTTPie\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:28:42 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:29:12 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:29:42 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:30:13 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:30:43 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"User authenticated: aishu@gmail.com (user)","service":"aquisitions-api"}
+{"level":"info","message":"Getting user by id: 2","service":"aquisitions-api"}
+{"level":"error","message":"Error getting user by id 2: Cannot convert undefined or null to object","service":"aquisitions-api","stack":"TypeError: Cannot convert undefined or null to object\n    at Function.entries (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:53:17)\n    at file:///app/node_modules/drizzle-orm/utils.js:63:22\n    at Array.reduce (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:53:33)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:770:26\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)\n    at PgSelectBase._prepare (file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:769:19)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:797:19\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)"}
+{"level":"error","message":"Error fetching user by id: Cannot convert undefined or null to object","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [27/Nov/2025:17:30:46 +0000] \"GET /api/users/2 HTTP/1.1\" 500 1061 \"-\" \"HTTPie\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:31:14 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:33:44 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:34:14 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:34:45 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:35:15 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:35:46 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:36:16 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:36:46 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:37:17 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:37:47 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:38:18 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:38:48 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:39:18 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:39:49 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:40:19 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:40:49 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:41:20 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:41:50 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:42:21 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:42:51 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:43:22 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:43:52 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:44:23 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:44:53 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:45:24 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:45:54 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:46:26 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"User authenticated: aishu@gmail.com (user)","service":"aquisitions-api"}
+{"level":"info","message":"Getting user by id: 2","service":"aquisitions-api"}
+{"level":"error","message":"Error getting user by id 2: Cannot convert undefined or null to object","service":"aquisitions-api","stack":"TypeError: Cannot convert undefined or null to object\n    at Function.entries (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:53:17)\n    at file:///app/node_modules/drizzle-orm/utils.js:63:22\n    at Array.reduce (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:53:33)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:770:26\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)\n    at PgSelectBase._prepare (file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:769:19)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:797:19\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)"}
+{"level":"error","message":"Error fetching user by id: Cannot convert undefined or null to object","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [27/Nov/2025:17:46:48 +0000] \"GET /api/users/2 HTTP/1.1\" 500 1061 \"-\" \"HTTPie\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:46:59 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:47:32 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:48:03 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:48:33 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:49:05 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:49:35 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"User authenticated: aishu@gmail.com (user)","service":"aquisitions-api"}
+{"level":"info","message":"Getting user by id: 2","service":"aquisitions-api"}
+{"level":"error","message":"Error getting user by id 2: Cannot convert undefined or null to object","service":"aquisitions-api","stack":"TypeError: Cannot convert undefined or null to object\n    at Function.entries (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:53:17)\n    at file:///app/node_modules/drizzle-orm/utils.js:63:22\n    at Array.reduce (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:53:33)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:770:26\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)\n    at PgSelectBase._prepare (file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:769:19)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:797:19\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)"}
+{"level":"error","message":"Error fetching user by id: Cannot convert undefined or null to object","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [27/Nov/2025:17:49:53 +0000] \"GET /api/users/2 HTTP/1.1\" 500 1061 \"-\" \"HTTPie\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:50:06 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:50:37 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:51:08 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:51:38 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:52:09 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:52:40 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:53:10 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [27/Nov/2025:17:53:11 +0000] \"GET /api/auth/sign-in HTTP/1.1\" 404 155 \"-\" \"HTTPie\"","service":"aquisitions-api"}
+{"level":"info","message":"User signed in successfully: aishu@gmail.com","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [27/Nov/2025:17:53:19 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 99 \"-\" \"HTTPie\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:53:41 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [27/Nov/2025:17:53:50 +0000] \"GET /api/users/2 HTTP/1.1\" 401 72 \"-\" \"HTTPie\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:17:54:11 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"User authenticated: aishu@gmail.com (user)","service":"aquisitions-api"}
+{"level":"info","message":"Getting user by id: 2","service":"aquisitions-api"}
+{"level":"error","message":"Error getting user by id 2: Cannot convert undefined or null to object","service":"aquisitions-api","stack":"TypeError: Cannot convert undefined or null to object\n    at Function.entries (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:53:17)\n    at file:///app/node_modules/drizzle-orm/utils.js:63:22\n    at Array.reduce (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:53:33)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:770:26\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)\n    at PgSelectBase._prepare (file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:769:19)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:797:19\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)"}
+{"level":"error","message":"Error fetching user by id: Cannot convert undefined or null to object","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [27/Nov/2025:17:54:21 +0000] \"GET /api/users/2 HTTP/1.1\" 500 1061 \"-\" \"HTTPie\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:18:04:48 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"User signed in successfully: aishu@gmail.com","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [27/Nov/2025:18:04:48 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 99 \"-\" \"HTTPie\"","service":"aquisitions-api"}
+{"level":"info","message":"User authenticated: aishu@gmail.com (user)","service":"aquisitions-api"}
+{"level":"info","message":"Getting user by id: 2","service":"aquisitions-api"}
+{"level":"error","message":"Error getting user by id 2: Cannot convert undefined or null to object","service":"aquisitions-api","stack":"TypeError: Cannot convert undefined or null to object\n    at Function.entries (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:53:17)\n    at file:///app/node_modules/drizzle-orm/utils.js:63:22\n    at Array.reduce (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:53:33)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:770:26\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)\n    at PgSelectBase._prepare (file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:769:19)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:797:19\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)"}
+{"level":"error","message":"Error fetching user by id: Cannot convert undefined or null to object","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [27/Nov/2025:18:05:05 +0000] \"GET /api/users/2 HTTP/1.1\" 500 1061 \"-\" \"HTTPie\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:18:05:20 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:18:05:50 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:18:06:21 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:18:06:52 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"User authenticated: aishu@gmail.com (user)","service":"aquisitions-api"}
+{"level":"info","message":"Getting user by id: 2","service":"aquisitions-api"}
+{"level":"error","message":"Error getting user by id 2: Cannot convert undefined or null to object","service":"aquisitions-api","stack":"TypeError: Cannot convert undefined or null to object\n    at Function.entries (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:53:17)\n    at file:///app/node_modules/drizzle-orm/utils.js:63:22\n    at Array.reduce (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:53:33)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:770:26\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)\n    at PgSelectBase._prepare (file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:769:19)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:797:19\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)"}
+{"level":"error","message":"Error fetching user by id: Cannot convert undefined or null to object","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [27/Nov/2025:18:06:57 +0000] \"GET /api/users/2 HTTP/1.1\" 500 1061 \"-\" \"HTTPie\"","service":"aquisitions-api"}
+{"level":"info","message":"User authenticated: aishu@gmail.com (user)","service":"aquisitions-api"}
+{"level":"info","message":"Getting user by id: 2","service":"aquisitions-api"}
+{"level":"error","message":"Error getting user by id 2: Cannot convert undefined or null to object","service":"aquisitions-api","stack":"TypeError: Cannot convert undefined or null to object\n    at Function.entries (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:53:17)\n    at file:///app/node_modules/drizzle-orm/utils.js:63:22\n    at Array.reduce (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:53:33)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:770:26\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)\n    at PgSelectBase._prepare (file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:769:19)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:797:19\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)"}
+{"level":"error","message":"Error fetching user by id: Cannot convert undefined or null to object","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [27/Nov/2025:18:07:21 +0000] \"GET /api/users/2 HTTP/1.1\" 500 1061 \"-\" \"HTTPie\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:18:07:23 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:18:07:53 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"error","message":"Failed to authenticate token invalid signature","name":"JsonWebTokenError","service":"aquisitions-api","stack":"JsonWebTokenError: invalid signature\n    at C:\\Users\\Aishwarya SK\\Desktop\\DevOps-Course\\DevOps_Project\\acquisitions\\node_modules\\jsonwebtoken\\verify.js:171:19\n    at getSecret (C:\\Users\\Aishwarya SK\\Desktop\\DevOps-Course\\DevOps_Project\\acquisitions\\node_modules\\jsonwebtoken\\verify.js:97:14)\n    at module.exports [as verify] (C:\\Users\\Aishwarya SK\\Desktop\\DevOps-Course\\DevOps_Project\\acquisitions\\node_modules\\jsonwebtoken\\verify.js:101:10)\n    at Object.verify (file:///C:/Users/Aishwarya%20SK/Desktop/DevOps-Course/DevOps_Project/acquisitions/src/utils/jwt.js:19:18)\n    at authenticateToken (file:///C:/Users/Aishwarya%20SK/Desktop/DevOps-Course/DevOps_Project/acquisitions/src/middleware/auth.middleware.js:15:30)\n    at Layer.handleRequest (C:\\Users\\Aishwarya SK\\Desktop\\DevOps-Course\\DevOps_Project\\acquisitions\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\Aishwarya SK\\Desktop\\DevOps-Course\\DevOps_Project\\acquisitions\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\Aishwarya SK\\Desktop\\DevOps-Course\\DevOps_Project\\acquisitions\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\Aishwarya SK\\Desktop\\DevOps-Course\\DevOps_Project\\acquisitions\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\Aishwarya SK\\Desktop\\DevOps-Course\\DevOps_Project\\acquisitions\\node_modules\\router\\lib\\layer.js:152:17)"}
+{"level":"error","message":"Authentication error: error is not defined","service":"aquisitions-api","stack":"ReferenceError: error is not defined\n    at Object.verify (file:///C:/Users/Aishwarya%20SK/Desktop/DevOps-Course/DevOps_Project/acquisitions/src/utils/jwt.js:22:7)\n    at authenticateToken (file:///C:/Users/Aishwarya%20SK/Desktop/DevOps-Course/DevOps_Project/acquisitions/src/middleware/auth.middleware.js:15:30)\n    at Layer.handleRequest (C:\\Users\\Aishwarya SK\\Desktop\\DevOps-Course\\DevOps_Project\\acquisitions\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\Aishwarya SK\\Desktop\\DevOps-Course\\DevOps_Project\\acquisitions\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\Aishwarya SK\\Desktop\\DevOps-Course\\DevOps_Project\\acquisitions\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\Aishwarya SK\\Desktop\\DevOps-Course\\DevOps_Project\\acquisitions\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\Aishwarya SK\\Desktop\\DevOps-Course\\DevOps_Project\\acquisitions\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\Aishwarya SK\\Desktop\\DevOps-Course\\DevOps_Project\\acquisitions\\node_modules\\router\\index.js:295:15\n    at param (C:\\Users\\Aishwarya SK\\Desktop\\DevOps-Course\\DevOps_Project\\acquisitions\\node_modules\\router\\index.js:600:14)\n    at param (C:\\Users\\Aishwarya SK\\Desktop\\DevOps-Course\\DevOps_Project\\acquisitions\\node_modules\\router\\index.js:610:14)"}
+{"level":"info","message":"::1 - - [27/Nov/2025:18:08:41 +0000] \"GET /api/users/2 HTTP/1.1\" 500 73 \"-\" \"HTTPie\"","service":"aquisitions-api"}
+{"level":"error","message":"Error authenticating the user: Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: aishu@gmail.com,1","service":"aquisitions-api"}
+{"cause":{"name":"NeonDbError","sourceError":{}},"level":"error","message":"Signin error Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: aishu@gmail.com,1","params":["aishu@gmail.com",1],"query":"select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2","service":"aquisitions-api","stack":"Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: aishu@gmail.com,1\n    at NeonHttpPreparedQuery.queryWithCache (file:///C:/Users/Aishwarya%20SK/Desktop/DevOps-Course/DevOps_Project/acquisitions/node_modules/drizzle-orm/pg-core/session.js:41:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async NeonHttpPreparedQuery.execute (file:///C:/Users/Aishwarya%20SK/Desktop/DevOps-Course/DevOps_Project/acquisitions/node_modules/drizzle-orm/neon-http/session.js:45:20)\n    at async authenticateUser (file:///C:/Users/Aishwarya%20SK/Desktop/DevOps-Course/DevOps_Project/acquisitions/src/services/auth.service.js:63:18)\n    at async signin (file:///C:/Users/Aishwarya%20SK/Desktop/DevOps-Course/DevOps_Project/acquisitions/src/controllers/auth.controller.js:65:18)"}
+{"level":"info","message":"::1 - - [27/Nov/2025:18:09:05 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 500 1201 \"-\" \"HTTPie\"","service":"aquisitions-api"}
+{"level":"error","message":"Error authenticating the user: Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: aishu@gmail.com,1","service":"aquisitions-api"}
+{"cause":{"name":"NeonDbError","sourceError":{}},"level":"error","message":"Signin error Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: aishu@gmail.com,1","params":["aishu@gmail.com",1],"query":"select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2","service":"aquisitions-api","stack":"Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: aishu@gmail.com,1\n    at NeonHttpPreparedQuery.queryWithCache (file:///C:/Users/Aishwarya%20SK/Desktop/DevOps-Course/DevOps_Project/acquisitions/node_modules/drizzle-orm/pg-core/session.js:41:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async NeonHttpPreparedQuery.execute (file:///C:/Users/Aishwarya%20SK/Desktop/DevOps-Course/DevOps_Project/acquisitions/node_modules/drizzle-orm/neon-http/session.js:45:20)\n    at async authenticateUser (file:///C:/Users/Aishwarya%20SK/Desktop/DevOps-Course/DevOps_Project/acquisitions/src/services/auth.service.js:63:18)\n    at async signin (file:///C:/Users/Aishwarya%20SK/Desktop/DevOps-Course/DevOps_Project/acquisitions/src/controllers/auth.controller.js:65:18)"}
+{"level":"info","message":"::1 - - [27/Nov/2025:18:15:28 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 500 1201 \"-\" \"HTTPie\"","service":"aquisitions-api"}
+{"level":"error","message":"Error authenticating the user: Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: aishu@gmail.com,1","service":"aquisitions-api"}
+{"cause":{"name":"NeonDbError","sourceError":{}},"level":"error","message":"Signin error Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: aishu@gmail.com,1","params":["aishu@gmail.com",1],"query":"select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2","service":"aquisitions-api","stack":"Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: aishu@gmail.com,1\n    at NeonHttpPreparedQuery.queryWithCache (file:///C:/Users/Aishwarya%20SK/Desktop/DevOps-Course/DevOps_Project/acquisitions/node_modules/drizzle-orm/pg-core/session.js:41:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async NeonHttpPreparedQuery.execute (file:///C:/Users/Aishwarya%20SK/Desktop/DevOps-Course/DevOps_Project/acquisitions/node_modules/drizzle-orm/neon-http/session.js:45:20)\n    at async authenticateUser (file:///C:/Users/Aishwarya%20SK/Desktop/DevOps-Course/DevOps_Project/acquisitions/src/services/auth.service.js:63:18)\n    at async signin (file:///C:/Users/Aishwarya%20SK/Desktop/DevOps-Course/DevOps_Project/acquisitions/src/controllers/auth.controller.js:65:18)"}
+{"level":"info","message":"::1 - - [27/Nov/2025:18:17:15 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 500 1201 \"-\" \"HTTPie\"","service":"aquisitions-api"}
+{"level":"error","message":"Error authenticating the user: Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: aishu@gmail.com,1","service":"aquisitions-api"}
+{"cause":{"name":"NeonDbError","sourceError":{}},"level":"error","message":"Signin error Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: aishu@gmail.com,1","params":["aishu@gmail.com",1],"query":"select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2","service":"aquisitions-api","stack":"Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: aishu@gmail.com,1\n    at NeonHttpPreparedQuery.queryWithCache (file:///C:/Users/Aishwarya%20SK/Desktop/DevOps-Course/DevOps_Project/acquisitions/node_modules/drizzle-orm/pg-core/session.js:41:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async NeonHttpPreparedQuery.execute (file:///C:/Users/Aishwarya%20SK/Desktop/DevOps-Course/DevOps_Project/acquisitions/node_modules/drizzle-orm/neon-http/session.js:45:20)\n    at async authenticateUser (file:///C:/Users/Aishwarya%20SK/Desktop/DevOps-Course/DevOps_Project/acquisitions/src/services/auth.service.js:63:18)\n    at async signin (file:///C:/Users/Aishwarya%20SK/Desktop/DevOps-Course/DevOps_Project/acquisitions/src/controllers/auth.controller.js:65:18)"}
+{"level":"info","message":"::1 - - [27/Nov/2025:18:17:59 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 500 1201 \"-\" \"HTTPie\"","service":"aquisitions-api"}
+{"level":"info","message":"User authenticated: aishu@gmail.com (user)","service":"aquisitions-api"}
+{"level":"info","message":"Getting user by id: 2","service":"aquisitions-api"}
+{"cause":{"code":"42703","file":"parse_relation.c","hint":"Perhaps you meant to reference the column \"users.createdAt\".","line":"3723","name":"NeonDbError","position":"39","routine":"errorMissingColumn","severity":"ERROR"},"level":"error","message":"Error getting user by id 2: Failed query: select \"id\", \"email\", \"name\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"id\" = $1 limit $2\nparams: 2,1","params":[2,1],"query":"select \"id\", \"email\", \"name\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"id\" = $1 limit $2","service":"aquisitions-api","stack":"Error: Failed query: select \"id\", \"email\", \"name\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"id\" = $1 limit $2\nparams: 2,1\n    at NeonHttpPreparedQuery.queryWithCache (file:///app/node_modules/drizzle-orm/pg-core/session.js:41:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async NeonHttpPreparedQuery.execute (file:///app/node_modules/drizzle-orm/neon-http/session.js:45:20)\n    at async getUserById (file:///app/src/services/users.service.js:26:20)\n    at async fetchUserById (file:///app/src/controllers/users.controller.js:46:18)"}
+{"level":"error","message":"Error fetching user by id: Failed query: select \"id\", \"email\", \"name\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"id\" = $1 limit $2\nparams: 2,1","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [27/Nov/2025:18:22:44 +0000] \"GET /api/users/2 HTTP/1.1\" 500 885 \"-\" \"HTTPie\"","service":"aquisitions-api"}
+{"level":"error","message":"Error authenticating the user: Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: aishu@gmail.com,1","service":"aquisitions-api"}
+{"cause":{"code":"42703","file":"parse_relation.c","hint":"Perhaps you meant to reference the column \"users.createdAt\".","line":"3723","name":"NeonDbError","position":"51","routine":"errorMissingColumn","severity":"ERROR"},"level":"error","message":"Signin error Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: aishu@gmail.com,1","params":["aishu@gmail.com",1],"query":"select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2","service":"aquisitions-api","stack":"Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: aishu@gmail.com,1\n    at NeonHttpPreparedQuery.queryWithCache (file:///app/node_modules/drizzle-orm/pg-core/session.js:41:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async NeonHttpPreparedQuery.execute (file:///app/node_modules/drizzle-orm/neon-http/session.js:45:20)\n    at async authenticateUser (file:///app/src/services/auth.service.js:63:18)\n    at async signin (file:///app/src/controllers/auth.controller.js:65:18)"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [27/Nov/2025:18:22:49 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 500 920 \"-\" \"HTTPie\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:18:22:54 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:18:23:24 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:18:23:56 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"error","message":"Error authenticating the user: Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: aishu@gmail.com,1","service":"aquisitions-api"}
+{"cause":{"code":"42703","file":"parse_relation.c","hint":"Perhaps you meant to reference the column \"users.createdAt\".","line":"3723","name":"NeonDbError","position":"51","routine":"errorMissingColumn","severity":"ERROR"},"level":"error","message":"Signin error Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: aishu@gmail.com,1","params":["aishu@gmail.com",1],"query":"select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2","service":"aquisitions-api","stack":"Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: aishu@gmail.com,1\n    at NeonHttpPreparedQuery.queryWithCache (file:///app/node_modules/drizzle-orm/pg-core/session.js:41:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async NeonHttpPreparedQuery.execute (file:///app/node_modules/drizzle-orm/neon-http/session.js:45:20)\n    at async authenticateUser (file:///app/src/services/auth.service.js:63:18)\n    at async signin (file:///app/src/controllers/auth.controller.js:65:18)"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [27/Nov/2025:18:24:13 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 500 920 \"-\" \"HTTPie\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:18:24:26 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:18:24:57 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:18:25:28 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:18:25:59 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:18:26:30 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:18:27:01 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:18:27:33 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:18:28:04 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:18:29:13 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:18:29:45 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:18:30:17 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:18:30:49 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:18:31:20 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:18:31:51 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:18:32:22 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:18:32:55 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:18:33:25 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:18:33:56 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:18:34:27 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:18:34:59 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:18:35:30 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"error","message":"Error authenticating the user: Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: aishu@gmail.com,1","service":"aquisitions-api"}
+{"cause":{"code":"42703","file":"parse_relation.c","hint":"Perhaps you meant to reference the column \"users.createdAt\".","line":"3723","name":"NeonDbError","position":"51","routine":"errorMissingColumn","severity":"ERROR"},"level":"error","message":"Signin error Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: aishu@gmail.com,1","params":["aishu@gmail.com",1],"query":"select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2","service":"aquisitions-api","stack":"Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: aishu@gmail.com,1\n    at NeonHttpPreparedQuery.queryWithCache (file:///app/node_modules/drizzle-orm/pg-core/session.js:41:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async NeonHttpPreparedQuery.execute (file:///app/node_modules/drizzle-orm/neon-http/session.js:45:20)\n    at async authenticateUser (file:///app/src/services/auth.service.js:63:18)\n    at async signin (file:///app/src/controllers/auth.controller.js:65:18)"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [27/Nov/2025:18:35:51 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 500 920 \"-\" \"HTTPie\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:18:36:02 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:18:36:32 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:18:37:04 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:18:37:35 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:18:38:06 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:18:38:37 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:18:39:08 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:18:39:39 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:18:40:11 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:18:40:43 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"User signed in successfully: aishu@gmail.com","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [27/Nov/2025:18:41:11 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 99 \"-\" \"HTTPie\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:18:41:14 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"User authenticated: aishu@gmail.com (user)","service":"aquisitions-api"}
+{"level":"info","message":"Getting user by id: 2","service":"aquisitions-api"}
+{"level":"info","message":"User adrin@gmail.com retrieved successfully","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [27/Nov/2025:18:41:22 +0000] \"GET /api/users/2 HTTP/1.1\" 200 192 \"-\" \"HTTPie\"","service":"aquisitions-api"}
+{"level":"info","message":"User authenticated: aishu@gmail.com (user)","service":"aquisitions-api"}
+{"level":"info","message":"Getting user by id: 1","service":"aquisitions-api"}
+{"level":"info","message":"User admin@gmail.com retrieved successfully","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:172.19.0.1 - - [27/Nov/2025:18:41:30 +0000] \"GET /api/users/1 HTTP/1.1\" 200 193 \"-\" \"HTTPie\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:18:41:45 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:18:42:16 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:18:42:47 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::1 - - [27/Nov/2025:18:43:18 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"error","message":"Failed to authenticate token invalid signature","name":"JsonWebTokenError","service":"aquisitions-api","stack":"JsonWebTokenError: invalid signature\n    at C:\\Users\\Aishwarya SK\\Desktop\\DevOps-Course\\DevOps_Project\\acquisitions\\node_modules\\jsonwebtoken\\verify.js:171:19\n    at getSecret (C:\\Users\\Aishwarya SK\\Desktop\\DevOps-Course\\DevOps_Project\\acquisitions\\node_modules\\jsonwebtoken\\verify.js:97:14)\n    at module.exports [as verify] (C:\\Users\\Aishwarya SK\\Desktop\\DevOps-Course\\DevOps_Project\\acquisitions\\node_modules\\jsonwebtoken\\verify.js:101:10)\n    at Object.verify (file:///C:/Users/Aishwarya%20SK/Desktop/DevOps-Course/DevOps_Project/acquisitions/src/utils/jwt.js:19:18)\n    at authenticateToken (file:///C:/Users/Aishwarya%20SK/Desktop/DevOps-Course/DevOps_Project/acquisitions/src/middleware/auth.middleware.js:15:30)\n    at Layer.handleRequest (C:\\Users\\Aishwarya SK\\Desktop\\DevOps-Course\\DevOps_Project\\acquisitions\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\Aishwarya SK\\Desktop\\DevOps-Course\\DevOps_Project\\acquisitions\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\Aishwarya SK\\Desktop\\DevOps-Course\\DevOps_Project\\acquisitions\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\Aishwarya SK\\Desktop\\DevOps-Course\\DevOps_Project\\acquisitions\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\Aishwarya SK\\Desktop\\DevOps-Course\\DevOps_Project\\acquisitions\\node_modules\\router\\lib\\layer.js:152:17)"}
+{"level":"error","message":"Authentication error: error is not defined","service":"aquisitions-api","stack":"ReferenceError: error is not defined\n    at Object.verify (file:///C:/Users/Aishwarya%20SK/Desktop/DevOps-Course/DevOps_Project/acquisitions/src/utils/jwt.js:22:7)\n    at authenticateToken (file:///C:/Users/Aishwarya%20SK/Desktop/DevOps-Course/DevOps_Project/acquisitions/src/middleware/auth.middleware.js:15:30)\n    at Layer.handleRequest (C:\\Users\\Aishwarya SK\\Desktop\\DevOps-Course\\DevOps_Project\\acquisitions\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\Aishwarya SK\\Desktop\\DevOps-Course\\DevOps_Project\\acquisitions\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\Aishwarya SK\\Desktop\\DevOps-Course\\DevOps_Project\\acquisitions\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\Aishwarya SK\\Desktop\\DevOps-Course\\DevOps_Project\\acquisitions\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\Aishwarya SK\\Desktop\\DevOps-Course\\DevOps_Project\\acquisitions\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\Aishwarya SK\\Desktop\\DevOps-Course\\DevOps_Project\\acquisitions\\node_modules\\router\\index.js:295:15\n    at param (C:\\Users\\Aishwarya SK\\Desktop\\DevOps-Course\\DevOps_Project\\acquisitions\\node_modules\\router\\index.js:600:14)\n    at param (C:\\Users\\Aishwarya SK\\Desktop\\DevOps-Course\\DevOps_Project\\acquisitions\\node_modules\\router\\index.js:610:14)"}
+{"level":"info","message":"::1 - - [27/Nov/2025:18:44:17 +0000] \"GET /api/users/1 HTTP/1.1\" 500 73 \"-\" \"HTTPie\"","service":"aquisitions-api"}
+{"level":"error","message":"Error authenticating the user: Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: aishu@gmail.com,1","service":"aquisitions-api"}
+{"cause":{"name":"NeonDbError","sourceError":{}},"level":"error","message":"Signin error Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: aishu@gmail.com,1","params":["aishu@gmail.com",1],"query":"select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2","service":"aquisitions-api","stack":"Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: aishu@gmail.com,1\n    at NeonHttpPreparedQuery.queryWithCache (file:///C:/Users/Aishwarya%20SK/Desktop/DevOps-Course/DevOps_Project/acquisitions/node_modules/drizzle-orm/pg-core/session.js:41:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async NeonHttpPreparedQuery.execute (file:///C:/Users/Aishwarya%20SK/Desktop/DevOps-Course/DevOps_Project/acquisitions/node_modules/drizzle-orm/neon-http/session.js:45:20)\n    at async authenticateUser (file:///C:/Users/Aishwarya%20SK/Desktop/DevOps-Course/DevOps_Project/acquisitions/src/services/auth.service.js:63:18)\n    at async signin (file:///C:/Users/Aishwarya%20SK/Desktop/DevOps-Course/DevOps_Project/acquisitions/src/controllers/auth.controller.js:65:18)"}
+{"level":"info","message":"::1 - - [27/Nov/2025:18:44:24 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 500 1201 \"-\" \"HTTPie\"","service":"aquisitions-api"}
+{"level":"error","message":"Error authenticating the user: Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: aishu@gmail.com,1","service":"aquisitions-api"}
+{"cause":{"name":"NeonDbError","sourceError":{}},"level":"error","message":"Signin error Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: aishu@gmail.com,1","params":["aishu@gmail.com",1],"query":"select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2","service":"aquisitions-api","stack":"Error: Failed query: select \"id\", \"name\", \"email\", \"password\", \"role\", \"created_at\", \"updated_at\" from \"users\" where \"users\".\"email\" = $1 limit $2\nparams: aishu@gmail.com,1\n    at NeonHttpPreparedQuery.queryWithCache (file:///C:/Users/Aishwarya%20SK/Desktop/DevOps-Course/DevOps_Project/acquisitions/node_modules/drizzle-orm/pg-core/session.js:41:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async NeonHttpPreparedQuery.execute (file:///C:/Users/Aishwarya%20SK/Desktop/DevOps-Course/DevOps_Project/acquisitions/node_modules/drizzle-orm/neon-http/session.js:45:20)\n    at async authenticateUser (file:///C:/Users/Aishwarya%20SK/Desktop/DevOps-Course/DevOps_Project/acquisitions/src/services/auth.service.js:63:18)\n    at async signin (file:///C:/Users/Aishwarya%20SK/Desktop/DevOps-Course/DevOps_Project/acquisitions/src/controllers/auth.controller.js:65:18)"}
+{"level":"info","message":"::1 - - [27/Nov/2025:18:45:14 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 500 1201 \"-\" \"HTTPie\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [04/Dec/2025:14:54:27 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [04/Dec/2025:14:54:28 +0000] \"GET /api HTTP/1.1\" 200 41 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [04/Dec/2025:14:54:28 +0000] \"GET /nonexsistent HTTP/1.1\" 404 27 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [04/Dec/2025:15:01:53 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [04/Dec/2025:15:01:53 +0000] \"GET /api HTTP/1.1\" 200 41 \"-\" \"-\"","service":"aquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [04/Dec/2025:15:01:53 +0000] \"GET /nonexsistent HTTP/1.1\" 404 27 \"-\" \"-\"","service":"aquisitions-api"}

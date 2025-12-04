@@ -24,7 +24,7 @@ export const comparePassword = async (password, hashedPassword) => {
 
 export const createUser = async ({ name, email, password, role = 'User' }) => {
   try {
-    const existingUser = db
+    const existingUser = await db
       .select()
       .from(users)
       .where(eq(users.email, email))
@@ -47,7 +47,7 @@ export const createUser = async ({ name, email, password, role = 'User' }) => {
         name: users.name,
         email: users.email,
         role: users.role,
-        createdAt: users.createdAt,
+        created_at: users.created_at,
       });
 
     logger.info(`User ${newUser.email} created successfully`);

@@ -1,7 +1,7 @@
 import logger from '#config/logger.js';
 import { authenticateUser, createUser } from '#services/auth.service.js';
 import { cookies } from '#utils/cookies.js';
-import { formatValidationErrors } from '#utils/format.js';
+import { formatValidationError } from '#utils/format.js';
 import { jwttoken } from '#utils/jwt.js';
 import { signinSchema, signupSchema } from '#validations/auth.validation.js';
 
@@ -12,7 +12,7 @@ export const signup = async (req, res, next) => {
     if (!validationResult.success) {
       return res.status(400).json({
         error: 'Validation failed',
-        details: formatValidationErrors(validationResult.error),
+        details: formatValidationError(validationResult.error),
       });
     }
 
@@ -56,7 +56,7 @@ export const signin = async (req, res, next) => {
     if (!validationResult.success) {
       return res.status(400).json({
         error: 'Validation failed',
-        details: formatValidationErrors(validationResult.error),
+        details: formatValidationError(validationResult.error),
       });
     }
 
@@ -64,7 +64,11 @@ export const signin = async (req, res, next) => {
 
     const user = await authenticateUser({ email, password });
 
-    const token = jwttoken.sign({ id: user.id, email: user.email, role: user.role });
+    const token = jwttoken.sign({
+      id: user.id,
+      email: user.email,
+      role: user.role,
+    });
     cookies.set(res, 'token', token);
 
     logger.info(`User signed in successfully: ${email}`);
